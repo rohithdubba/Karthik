@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Question_1",
+			"name": "Q1",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"user-agent": true
