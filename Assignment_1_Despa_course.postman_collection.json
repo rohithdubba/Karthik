@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "f20635fd-16a6-4860-b0ef-f8bf7fb8d382",
+		"name": "Assignment_1_Despa_course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Question_1",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "FOO",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.nytimes.com/svc/books/v3/lists.json?api-key=BTgbRPMaDAGhSqeDIpYnbE1H3vRxeRbF&List=hardcover-nonfiction&rank=2&rank_last_week=2&published-date=2020-12-27",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nytimes",
+						"com"
+					],
+					"path": [
+						"svc",
+						"books",
+						"v3",
+						"lists.json"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "BTgbRPMaDAGhSqeDIpYnbE1H3vRxeRbF"
+						},
+						{
+							"key": "List",
+							"value": "hardcover-nonfiction"
+						},
+						{
+							"key": "rank",
+							"value": "2"
+						},
+						{
+							"key": "rank_last_week",
+							"value": "2"
+						},
+						{
+							"key": "published-date",
+							"value": "2020-12-27"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
